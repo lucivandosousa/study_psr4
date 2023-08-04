@@ -1,0 +1,17 @@
+{
+    "name": "myapp/psr-4",
+    "description": "Estudo sobre a PSR-4",
+    "authors": [
+        {
+            "name": "lucivando.sousa",
+            "email": "lucivandosousa@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "ETI\\": "src/"
+        }
+    }
+}
